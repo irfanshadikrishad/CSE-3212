@@ -1,5 +1,20 @@
 <resources>
-    <string name="app_name">est</string>
-    <string name="developer">Developed by Irfan Shadik Rishad</string>
-    <string name="click">Click Me</string>
+    <string name="app_name">assignments</string>
+    <string name="developer">Irfan Shadik Rishad</string>
+    <string name="studentID">0182210012101087</string>
+    <string name="assignment_title">Assignment 2</string>
+    <string name="batch">59B</string>
+    <string name="page1">Page 1</string>
+    <string name="page2">Page 2</string>
+    <string name="page3">Page 3</string>
+    <string name="page4">Page 4</string>
+    <string name="blue">Blue</string>
+    <string name="black">Black</string>
+    <string name="cyan">Cyan</string>
+    <string name="brown">Brown</string>
+    <string name="green">Green</string>
+    <string name="default_click">Click ???</string>
+    <string name="back">Back</string>
+    <string name="first_fragment_label"> </string>
+    <string name="second_fragment_label"> </string>
 </resources>
