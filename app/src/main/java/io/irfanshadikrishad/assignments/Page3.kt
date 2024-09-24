@@ -4,11 +4,13 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.SeekBar
+import android.widget.Switch
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import kotlin.random.Random
 
 class Page3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +40,16 @@ class Page3 : AppCompatActivity() {
             override fun onStopTrackingTouch(p0: SeekBar?) {
             }
         })
+
+        // Switch
+        val switch: Switch = findViewById(R.id.switch1)
+        switch.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked) {
+                seeker.progress = Random.nextInt(10, 101)
+            } else {
+                seeker.progress = 0
+            }
+        }
 
         // Go back functionality
         val backButton: Button = findViewById(R.id.button35)
