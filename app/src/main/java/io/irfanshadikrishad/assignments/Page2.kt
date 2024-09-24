@@ -25,12 +25,25 @@ class Page2 : AppCompatActivity() {
         // Change Image
         val changeImage: Button = findViewById(R.id.button8)
         val image: ImageView = findViewById(R.id.imageView)
+        var imageTracker: Number = 0
         changeImage.setOnClickListener {
-            if (image.drawable.constantState ==
-                this.resources.getDrawable(R.drawable.dumb2, null).constantState
-            ) {
-                image.setImageResource(R.drawable.dumb1)
+            when (imageTracker) {
+                0 -> {
+                    image.setImageResource(R.drawable.dumb3)
+                    imageTracker = 1
+                }
+
+                1 -> {
+                    image.setImageResource(R.drawable.dumb1)
+                    imageTracker = 2
+                }
+
+                2 -> {
+                    image.setImageResource(R.drawable.dumb2)
+                    imageTracker = 0
+                }
             }
+
         }
 
         // Go back functionality
