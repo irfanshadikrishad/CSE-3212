@@ -1,4 +1,4 @@
-package io.irfanshadikrishad.assignments
+package io.irfanshadikrishad.a1087
 
 import org.junit.Test
 
