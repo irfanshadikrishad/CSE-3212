@@ -1,4 +1,4 @@
-package com.example.est
+package io.irfanshadikrishad.assignment5
 
 import org.junit.Test
 

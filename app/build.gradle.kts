@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.est"
-    compileSdk = 34
+    namespace = "io.irfanshadikrishad.assignment5"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.est"
-        minSdk = 26
-        targetSdk = 34
+        applicationId = "io.irfanshadikrishad.assignment5"
+        minSdk = 24
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
